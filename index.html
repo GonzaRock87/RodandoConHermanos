@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rodando Con Hermanos</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Rodando Con Hermanos</h1>
+        <p>Traslados seguros y divertidos a recitales de Rock</p>
+        <p>Total de reservas: <span id="total_reservas">0</span></p>
+    </header>
+
+    <section id="viajes">
+        <div class="viaje" id="viaje1">
+            <h2>Viaje para Iron Maiden en el estadio de Huracan - Buenos Aires</h2>
+            <p>Precio: $46.000 por persona</p>
+            <p>Incluye: Traslado ida y vuelta con salida de Rosario, música en vivo a bordo y
+                coordinacion permanente
+            </p>
+            <p>Lugares disponibles: <span id="lugares1">10</span></p>
+            <button onclick="reservarLugar('lugares1')">Reservar</button>
+        </div>
+        <div class="viaje" id="viaje2">
+            <h2>Viaje para la vuelta de Los Piojos en La Plata, estadio Unico Diego Armando Maradona
+                14 y 15 de diciembre (entrada opcional para nuestros pasajeros)
+            </h2>
+            <p>Precio: $55.000 por persona</p>
+            <p>Incluye: Traslado ida y vuelta, previa en camping en La Plata, asado u opcion veggie incluida.</p>
+            <p>Lugares disponibles: <span id="lugares2">15</span></p>
+            <button onclick="reservarLugar('lugares2')">Reservar</button>
+        </div>
+        <!-- Puedes agregar más viajes similares -->
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
