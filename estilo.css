@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    text-align: center;
+    color: #333;
+}
+
+header {
+    background-color: #0d1adb;
+    color: #e3f308;
+    padding: 50px;
+}
+
+section {
+    margin: 60px;
+}
+
+.viaje {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 10px auto;
+    max-width: 300px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
